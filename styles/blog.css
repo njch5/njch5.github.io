@@ -1,0 +1,35 @@
+#sticky {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffe9ec;
+  border: 2px solid white;
+  position: fixed;
+  top: 0;
+  width: 98.7%;
+}
+
+#sticky li {
+  display: inline;
+  padding-right: 60px;
+}
+
+#sticky a {
+  text-decoration: none;
+}
+
+#sticky a:hover {
+  color: green;
+}
+
+.blog-container {
+  padding-top: 90px;
+}
+
+article {
+  padding-top: 80px;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
