@@ -34,8 +34,9 @@ body {
   padding-left: 15vh;
 }
 
-.about-me img {
-  padding-right: 30px;
+.portrait img {
+  width: 80%;
+  display: block;
   border-radius: 50%;
 }
 
@@ -44,7 +45,8 @@ body {
   float: right;
   width: 50%;
   padding-left: 10vh;
-  padding-top: 10vh;
+  padding-right: 5vh;
+  padding-top: 7vh;
   border: solid 3px white; 
 }
 
@@ -66,10 +68,10 @@ img {
 }
 
 footer {
-  padding-top: 50px;
+  padding-top: 70px;
   text-align: center;
 }
 
 .copyright {
-  padding-top: 45px;
+  padding-top: 60px;
 }

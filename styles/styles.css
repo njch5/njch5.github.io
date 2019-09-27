@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Mali&display=swap');
 
 body {
   background-image: linear-gradient(#FFD9F2, white);
@@ -56,6 +56,10 @@ body {
   font-size: 1.5rem;
 }
 
+#splash-section, #intro {
+  font-family: "Mali"
+}
+
 #intro {
   text-align: center;
 }
@@ -81,3 +85,4 @@ footer {
 .copyright {
   padding-top: 15px;
 }
+

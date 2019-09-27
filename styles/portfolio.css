@@ -4,6 +4,10 @@ body {
   background-image: linear-gradient(#FFD9F2, white);
 }
 
+main {
+  font-family: "Playfair Display"
+}
+
 #sticky {
   display: flex;
   flex-direction: row;
@@ -29,18 +33,12 @@ body {
 }
 
 .projects {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr; */
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: center;
   justify-items: center;
-  /* padding-left: 30%; */
-  /* background-color: rosybrown; */
 }
 
 .projects img {
-  /* padding-top: 20px; */
   float: left;
   width: 16%;
   height: auto;
@@ -52,5 +50,9 @@ body {
   padding-top: 5%;
   border: 2px solid black;
   padding-bottom: 120px;
-  font-family: "Playfair Display"
 }
+
+footer {
+  text-align: center;
+}
+
